@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* Custom Theme */
+:root {
+  --color-primary: #00C853;
+  --color-accent: #00E676;
+  --color-dark: #0B0F0C;
+}
+
+/* Base styles */
+body {
+  background: var(--color-dark);
+  color: white;
+  font-family: sans-serif;
+}
+
+/* Custom utility */
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,0.1);
+}
