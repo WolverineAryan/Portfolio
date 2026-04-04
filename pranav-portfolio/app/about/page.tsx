@@ -2,6 +2,8 @@
 
 import { motion } from "framer-motion";
 import AboutAvatar from "@/components/AboutAvatar";
+// import InteractiveAvatar from "@/components/InteractiveAvatar";
+// import Avatar3D from "@/components/Avatar3D";
 
 export default function AboutPage() {
   return (
@@ -31,7 +33,7 @@ export default function AboutPage() {
             strategy to build solutions that actually solve real-world problems.
           </p>
         </div>
-
+        
         {/* 3D AVATAR */}
         <AboutAvatar />
       </div>

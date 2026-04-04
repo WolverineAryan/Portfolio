@@ -29,7 +29,7 @@ export default function InteractiveAvatar() {
 
   return (
     <div
-      className="perspective-1000"
+      className="perspective-1000 flex justify-center"
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
     >
@@ -40,7 +40,7 @@ export default function InteractiveAvatar() {
         <img
           src="/avatar.png"
           alt="avatar"
-          className="w-[280px] md:w-[350px] rounded-2xl shadow-lg"
+          className="w-[260px] md:w-[320px] rounded-2xl"
         />
       </div>
     </div>
