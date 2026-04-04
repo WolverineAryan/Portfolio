@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import CaseStudyClient from "@/components/CaseStudyClient";
 
+
 const projects: any = {
   uniclubb: {
     title: "UniClubb",
@@ -14,6 +15,16 @@ const projects: any = {
     tech: ["Kotlin", "Jetpack Compose", "Firebase"],
     github: "https://github.com/shreyash-leo/UniClubb",
     live: "#",
+    images: [
+  "/projects/uniclubb1.png",
+  "/projects/uniclubb2.png",
+  "/projects/uniclubb3.png",
+  "/projects/uniclubb4.png",
+  "/projects/uniclubb5.png",
+  "/projects/uniclubb6.png",
+  "/projects/uniclubb7.png",
+  "/projects/uniclubb8.png",
+],
   },
 
   attendance: {

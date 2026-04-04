@@ -23,8 +23,8 @@ export default function Navbar() {
 
       <div className="flex gap-6 text-sm text-gray-300">
         <a href="#projects" className="hover:text-white">Projects</a>
-        <a href="#about" className="hover:text-white">About</a>
-        <a href="#contact" className="hover:text-white">Contact</a>
+        <a href="/about" className="hover:text-white">About</a>
+        <a href="/contact" className="hover:text-white">Contact</a>
       </div>
     </div>
   );

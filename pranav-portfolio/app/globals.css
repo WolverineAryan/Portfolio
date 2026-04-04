@@ -20,3 +20,16 @@ body {
   backdrop-filter: blur(20px);
   border: 1px solid rgba(255,255,255,0.1);
 }
+
+/* Hide scrollbar */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
