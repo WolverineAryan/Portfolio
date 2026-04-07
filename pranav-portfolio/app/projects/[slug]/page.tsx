@@ -39,6 +39,16 @@ const projects: any = {
     tech: ["React", "Python", "AI/ML"],
     github: "https://github.com/WolverineAryan/Attendance-Prediction",
     live: "https://attendance-prediction.vercel.app",
+    images: [
+  "/projects/APS1.png",
+  "/projects/APS2.png",
+  "/projects/APS3.png",
+  "/projects/APS4.png",
+  "/projects/APS5.png",
+  "/projects/APS6.png",
+  "/projects/APS7.png",
+  "/projects/APS8.png",
+    ],
   },
 
   levgress: {
